@@ -1,0 +1,25 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: supplier-service
+  cloud:
+    config:
+      enabled: false
+  data:
+    mongodb:
+      uri: mongodb://root:oCntQqxfMvUa2F_aYKjAlFCxqp7uP5Up0L85XJ7lk6mNB4MZ@27cd6f1c-f897-4707-b9cd-0f11be9df5c3.asia-south1.firestore.goog:443/cloudproject?loadBalanced=true&tls=true&authMechanism=SCRAM-SHA-256&retryWrites=false
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
