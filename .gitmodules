@@ -1,0 +1,9 @@
+[submodule "stock-service"]
+	path = stock-service
+	url = https://github.com/smadhuranga/stock-service.git
+[submodule "supplier-service"]
+	path = supplier-service
+	url = https://github.com/smadhuranga/Supplier-Service.git
+[submodule "file-service"]
+	path = file-service
+	url = https://github.com/smadhuranga/file-service.git
